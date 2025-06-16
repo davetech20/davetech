@@ -1,0 +1,87 @@
+.con{
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+li{
+    padding-left: 70px;
+    font-style: italic;
+
+}
+.jj{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+.ktt{
+    font-style: italic;
+}
+.ab{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.message{
+    width: 650px;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.btn{
+    width: 100px;
+    outline: white;
+
+}
+
+.whatsapp-float{
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.card{
+    padding-left: 70px;
+    border: 0px;
+    
+    
+}
+
+.card{
+    font-family: Arial, sans-serif;
+    color: black;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeSlideIn 2s ease-out forwards;
+  }
+
+  @keyframes fadeSlideIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+h4{
+    font-family: Arial, sans-serif;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeSlideIn 2s ease-out forwards;
+  }
+
+  @keyframes fadeSlideIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .card-title{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+ 
